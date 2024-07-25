@@ -5,7 +5,7 @@ export const PatientFormDefaultValues = {
   lastName: "",
   email: "",
   phone: "",
-  birthDate: new Date(Date.now()),
+  birthDate: new Date(new Date().setFullYear(new Date().getFullYear() - 18)), // Set birthDate to 18 years before current date
   gender: "male" as Gender,
   address: "",
   occupation: "",
@@ -42,8 +42,12 @@ export const IdentificationTypes = [
 
 export const Doctors = [
   {
+    image: "/assets/images/dr-sz.png",
+    name: "Sebastián Zambrano",
+  },
+  {
     image: "/assets/images/dr-green.png",
-    name: "John Green",
+    name: "Cameo Green",
   },
   {
     image: "/assets/images/dr-cameron.png",

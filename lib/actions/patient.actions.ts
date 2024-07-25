@@ -13,6 +13,7 @@ import {
   users,
 } from "../appwrite.config";
 import { parseStringify } from "../utils";
+import { getAppointment } from "./appointment.actions";
 
 // CREATE APPWRITE USER
 export const createUser = async (user: CreateUserParams) => {
@@ -44,7 +45,6 @@ export const createUser = async (user: CreateUserParams) => {
 export const getUser = async (userId: string) => {
   try {
     const user = await users.get(userId);
-
     return parseStringify(user);
   } catch (error) {
     console.error(
@@ -53,6 +53,7 @@ export const getUser = async (userId: string) => {
     );
   }
 };
+
 
 // REGISTER PATIENT
 export const registerPatient = async ({
@@ -110,3 +111,4 @@ export const getPatient = async (userId: string) => {
     );
   }
 };
+

@@ -4,11 +4,15 @@ import { redirect } from "next/navigation";
 import RegisterForm from "@/components/forms/RegisterForm";
 import { getPatient, getUser } from "@/lib/actions/patient.actions";
 
+import * as Sentry from '@sentry/nextjs';
+
 const Register = async ({ params: { userId } }: SearchParamProps) => {
-  console.log(userId);
-  
   const user = await getUser(userId);
   const patient = await getPatient(userId);
+
+  // Add 'jane' to a set
+  // used for tracking the number of users that viewed a page.
+  Sentry.metrics.set("user_view_register", user.name);
 
   if (patient) redirect(`/patients/${userId}/new-appointment`);
 
@@ -26,7 +30,7 @@ const Register = async ({ params: { userId } }: SearchParamProps) => {
 
           <RegisterForm user={user} />
 
-          <p className="copyright py-12">© 2024 CarePulse</p>
+          <p className="copyright py-12">© 2024 MediFlow</p>
         </div>
       </section>
 
