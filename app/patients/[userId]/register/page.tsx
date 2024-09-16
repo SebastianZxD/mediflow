@@ -20,13 +20,16 @@ const Register = async ({ params: { userId } }: SearchParamProps) => {
     <div className="flex h-screen max-h-screen">
       <section className="remove-scrollbar container">
         <div className="sub-container max-w-[860px] flex-1 flex-col py-10">
-          <Image
-            src="/assets/icons/logo-full.svg"
+        <div className="flex flex-row">
+          <Image 
+            src="/assets/icons/logo-icon.webp"
             height={1000}
             width={1000}
-            alt="patient"
-            className="mb-12 h-10 w-fit"
-          />
+            alt="Patient"
+            className="mb-12 h-[2.5rem] w-fit rounded-[5px] border border-blue-500"
+            />
+            <h1 className="font-bold text-3xl ml-2">Medi Flow</h1>
+          </div>
 
           <RegisterForm user={user} />
 
