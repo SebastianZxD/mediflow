@@ -14,13 +14,16 @@ const NewAppointment = async ({ params: { userId }}: SearchParamProps) => {
     <div className="flex h-screen max-h-screen">
     <section className="remove-scrollbar container my-auto">
       <div className="sub-container max-w-[860px] flex-1 justify-between">
-        <Image 
-          src="/assets/icons/logo-full.svg"
-          height={1000}
-          width={1000}
-          alt="Patient"
-          className="mb-12 h-10 w-fit"
-        />
+        <div className="flex flex-row">
+          <Image 
+            src="/assets/icons/logo-icon.webp"
+            height={1000}
+            width={1000}
+            alt="Patient"
+            className="mb-12 h-[2.5rem] w-fit rounded-[5px] border border-blue-500"
+          />
+          <h1 className="font-bold text-3xl ml-2">Medi Flow</h1>
+        </div>
         <AppointmentForm 
           type="create" 
           userId={userId}
