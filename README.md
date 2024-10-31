@@ -1,7 +1,7 @@
 <div align="center">
   <br />
-    <a href="" target="_blank">
-      <img src="" alt="Project Banner">
+    <a href="https://mediflowcol.netlify.app/" target="_blank">
+      <img src="https://raw.githubusercontent.com/SebastianZxD/project-banners/refs/heads/main/assets/mediflow-banner.png" alt="Project Banner">
     </a>
   <br />
 
@@ -88,7 +88,7 @@ Public assets used in the project can be found [here](https://drive.google.com/f
 Are you looking to develop a web application or hire a Front End Developer with expertise and attention to detail? Look no further! I invite you to explore my portfolio and other projects to see how I can help fulfill your needs and get the job done efficiently.
 
 <a href="" target="_blank">
-<img src="" alt="Project Banner">
+  <img src="" alt="Project Banner">
 </a>
 
 #
