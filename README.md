@@ -74,10 +74,6 @@ Public assets used in the project can be found [here](https://drive.google.com/f
 
 3. **Improved Communication and Responsiveness**: With features like SMS notifications and complete responsiveness across all devices, the application ensures that patients are always informed and can access their healthcare information anytime, anywhere. This leads to better communication between patients and healthcare providers, fostering a more responsive and patient-centered healthcare environment.
 
-<a href="" target="_blank">
-<img src="" alt="Project Banner">
-</a>
-
 <br />
 <br />
 
@@ -87,8 +83,8 @@ Public assets used in the project can be found [here](https://drive.google.com/f
 
 Are you looking to develop a web application or hire a Front End Developer with expertise and attention to detail? Look no further! I invite you to explore my portfolio and other projects to see how I can help fulfill your needs and get the job done efficiently.
 
-<a href="" target="_blank">
-  <img src="" alt="Project Banner">
+<a href="mailto:juanszambranob@gmail.com" target="_blank">
+  <img src="https://raw.githubusercontent.com/SebastianZxD/project-banners/refs/heads/main/assets/get-in-touch-banner.png" alt="Get in touch Banner">
 </a>
 
 #
