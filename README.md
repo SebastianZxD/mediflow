@@ -81,7 +81,7 @@ Public assets used in the project can be found [here](https://drive.google.com/f
 
 **Discover My Work and Expertise**
 
-Are you looking to develop a web application or hire a Front End Developer with expertise and attention to detail? Look no further! I invite you to explore my portfolio and other projects to see how I can help fulfill your needs and get the job done efficiently.
+Are you looking to develop a web application or hire a Front End Developer with expertise and attention to detail? Look no further! I invite you to explore <a href="zbstudio.pro"><u>my portfolio</u></a> and other projects to see how I can help fulfill your needs and get the job done efficiently.
 
 <a href="mailto:juanszambranob@gmail.com" target="_blank">
   <img src="https://raw.githubusercontent.com/SebastianZxD/project-banners/refs/heads/main/assets/get-in-touch-banner.png" alt="Get in touch Banner">
