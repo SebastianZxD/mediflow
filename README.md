@@ -27,8 +27,6 @@
 
 Welcome! Thank you for taking the time to explore this app in depth. I appreciate your interest and hope you find it both useful and inspiring!
 
-<a href="" target="_blank"><img src="" /></a>
-
 ## <a name="introduction">📖 Introduction</a>
 
 A healthcare patient management application that allows patients to easily register, book, and manage their appointments with doctors, featuring administrative tools for scheduling, confirming, and canceling appointments, along with SMS notifications, all built using Next.js.
